@@ -1,0 +1,85 @@
+.card {
+  border: 2px solid rgb(0, 121, 16);
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  align-content: center;
+  width: 70%;
+  margin-left: 100px;
+  background-color: #f4f4f4;
+}
+
+.card-section {
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-left: 180px;
+}
+.card-2 {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.icons {
+  color: rgb(48, 65, 255);
+  font-size: larger;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.icons-1 {
+  color: rgb(189, 0, 0);
+  font-size: larger;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.contain-sort {
+  width: fit-content;
+  display: block;
+  margin: auto;
+}
+.sort {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+.sort input {
+  margin: 5px;
+}
+.sort select {
+  margin: 5px;
+  height: 60px;
+  background-color: #f0f0f0;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+
+.update-modal {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  width: fit-content;
+  display: block;
+}
+.update-modal input {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.update-modal button {
+  background-color: #1da1f2;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border: 1px solid #000;
+}
+
+a {
+  color: #000;
+}
+
+button {
+  width: 200px;
+}
