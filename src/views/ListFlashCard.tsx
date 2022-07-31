@@ -334,6 +334,8 @@ function ListFlashCard() {
                       width: "100%",
                       overflow: "hidden",
                       cursor: "pointer",
+                      alignItems: "center",
+                      alignContent: "center",
                     }}
                   >
                     {card.question}

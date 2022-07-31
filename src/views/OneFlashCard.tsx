@@ -71,18 +71,25 @@ function OneFlashCard() {
   return (
     <>
       <NavBar>
-        <div style={{ justifyContent: "left", width: "100%" }}>
-          <button
-            style={{ width: "30px", height: "30px", borderRadius: "50%" }}
+        <div
+          style={{
+            position: "absolute",
+            left: "40px",
+            fontSize: "40px",
+          }}
+        >
+          <FaIcons.FaArrowCircleLeft
+            id="downArrow"
+            style={{
+              height: "20px",
+              color: "#fff",
+              fontSize: "40px",
+              cursor: "pointer",
+            }}
             onClick={() => {
               navigate("/flashcard");
             }}
-          >
-            <FaIcons.FaChevronDown
-              id="downArrow"
-              style={{ width: "20px", height: "20px" }}
-            />
-          </button>
+          />
         </div>
       </NavBar>
       <div
@@ -209,7 +216,7 @@ function OneFlashCard() {
             <span
               style={{
                 fontSize: "15px",
-                marginBottom: "10px",
+                marginTop: "10px",
                 color: "#004c6f",
               }}
             >
