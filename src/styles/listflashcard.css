@@ -1,5 +1,5 @@
 .card {
-  border: 2px solid rgb(0, 121, 16);
+  /* border: 1px solid rgb(0, 121, 16); */
   border-radius: 10px;
   margin-top: 20px;
   padding: 20px;
@@ -7,7 +7,13 @@
   align-content: center;
   width: 70%;
   margin-left: 100px;
-  background-color: #f4f4f4;
+  background-color: #ffffff;
+}
+.card:hover {
+  box-shadow: 4px 4px 4px #a2a2a2;
+  transition: 0.5s;
+  margin-left: 95px;
+  width: 71%;
 }
 
 .card-section {
@@ -45,6 +51,7 @@
 }
 .sort input {
   margin: 5px;
+  background-color: #ffffff;
 }
 .sort select {
   margin: 5px;

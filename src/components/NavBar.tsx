@@ -73,7 +73,7 @@ function NavBar({ children }: { children?: ReactElement }) {
               {LinkDiv("Login")}
             </NavLink>
             <NavLink className="nav-link" to="/sign-up">
-              {LinkDiv("SignUp")}
+              {LinkDiv("Signup")}
             </NavLink>
           </>
         )}

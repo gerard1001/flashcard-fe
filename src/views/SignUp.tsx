@@ -61,43 +61,54 @@ export default function SignUp() {
   return (
     <>
       <NavBar />
+      <div className="container">
+        <h2
+          style={{
+            display: "block",
+            margin: "auto",
+            width: "fit-content",
+            marginBottom: "20px",
+          }}
+        >
+          Register
+        </h2>
+        <form noValidate onSubmit={handleSubmit}>
+          <input
+            name="firstName"
+            required
+            id="firstName"
+            autoFocus
+            placeholder="Firstname"
+          />
 
-      <form noValidate onSubmit={handleSubmit} style={{ marginTop: "300px" }}>
-        <input
-          name="firstName"
-          required
-          id="firstName"
-          autoFocus
-          placeholder="Firstname"
-        />
+          <input
+            required
+            id="lastName"
+            name="lastName"
+            autoComplete="family-name"
+            placeholder="Laststname"
+          />
+          <input
+            required
+            id="email"
+            name="email"
+            autoComplete="email"
+            placeholder="Email"
+          />
 
-        <input
-          required
-          id="lastName"
-          name="lastName"
-          autoComplete="family-name"
-          placeholder="Laststname"
-        />
-        <input
-          required
-          id="email"
-          name="email"
-          autoComplete="email"
-          placeholder="Email"
-        />
-
-        <input
-          required
-          name="password"
-          type="password"
-          id="password"
-          autoComplete="new-password"
-          placeholder="Password"
-        />
-        <button type="submit" disabled={loading} style={{  width: "300px"}}>
-          Submit
-        </button>
-      </form>
+          <input
+            required
+            name="password"
+            type="password"
+            id="password"
+            autoComplete="new-password"
+            placeholder="Password"
+          />
+          <button type="submit" disabled={loading} style={{ width: "300px" }}>
+            Sign Up
+          </button>
+        </form>
+      </div>
     </>
   );
 }
