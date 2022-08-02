@@ -1,11 +1,11 @@
 .nav-link {
   text-decoration: none;
   color: #ffbb00;
-  color: #ffffff;
+  color: #004261;
   font-size: 16px;
 }
 .div {
   display: flex;
-  background-color: #004169;
+  background-color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
 }

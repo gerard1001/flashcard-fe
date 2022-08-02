@@ -82,7 +82,6 @@ function OneFlashCard() {
             id="downArrow"
             style={{
               height: "20px",
-              color: "#fff",
               fontSize: "40px",
               cursor: "pointer",
             }}
